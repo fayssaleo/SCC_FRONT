@@ -1,0 +1,204 @@
+.selectedNotInomali {
+    td {
+        background-color: rgb(119 197 197 / 74%) !important;
+    }
+}
+
+tr.selectedInomali {
+    td {
+        background-color: #ff7174 !important;
+        color: white;
+    }
+}
+
+.caseForTable {
+    text-align: center;
+}
+
+.cantine_show_ {
+
+    width: 100%;
+    /* Ensures the table uses the full width */
+    border-collapse: collapse;
+    /* Collapses cell borders */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for depth */
+    overflow: hidden;
+    /* Prevents content overflow */
+    border-radius: 8px;
+    /* Rounds the corners of the table */
+    max-height: 60vh !important;
+    min-height: 60vh !important;
+}
+
+.cantine_show_ th,
+.cantine_show_ td {
+    text-align: center;
+    /* Center aligns all text */
+    padding: 12px 15px;
+    /* Adds space around the text */
+    border: solid 1px #ddd;
+    /* Adds border around each cell */
+}
+
+.cantine_show_ th,
+.cantine_show_ td {
+    td {
+        text-align: center !important;
+    }
+
+    text-align: center;
+    /* Center aligns all text */
+    padding: 12px 15px;
+    /* Adds space around the text */
+    border: solid 1px #ddd;
+    /* Adds border around each cell */
+}
+
+.cantine_show_ th {
+    background-color: #2e7272;
+    /* A different shade for header */
+    color: white;
+    /* White text for headers */
+    font-weight: bold;
+    /* Makes header text bold */
+    text-align: center !important;
+}
+
+.cantine_show_ td {
+    background-color: #f8f9fa;
+    /* Lighter background for cells */
+    color: #333;
+    /* Darker text for better readability */
+}
+
+/* Alternating row background colors */
+.cantine_show_ tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+    /* Lighter background for odd rows */
+}
+
+.cantine_show_ tbody tr:nth-child(even) {
+    background-color: #eef2f3;
+    /* Slightly different background for even rows */
+}
+
+.cantine_show_ tbody tr:hover {
+    background-color: #f1f1f1;
+    /* Color change on hover for rows */
+}
+
+.cantine_show_ .v-chip {
+    color: white;
+    /* Ensures text inside chips is white */
+    font-weight: normal;
+    /* Normal weight for chip text */
+    background-color: rgb(67 173 173);
+    /* Consistent styling for chips */
+    border-radius: 4px;
+    /* Rounded edges for chips */
+    padding: 4px 8px;
+    /* Padding inside the chip */
+}
+
+/* New style for warning */
+.cantine_show_ tbody tr.warning-row {
+    td {}
+
+}
+
+.cantine_show_ tbody tr.warning-row:hover {
+    td {
+
+        background-color: #df4346;
+        /* Keeps the yellow background on hover for warning rows */
+        opacity: 0.8;
+        color: white;
+    }
+}
+
+.cantine_show_ tbody tr.warning-row .v-chip {
+    background-color: #ffc107 !important;
+    /* Soft amber for the chip */
+    color: #333;
+    /* Darker text for better readability */
+}
+
+.cantine_show_ tr {
+    cursor: pointer;
+}
+
+.cantine_show_ tr:hover {
+    td {
+        background-color: rgb(194 238 238);
+        opacity: 0.8;
+    }
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar ::-webkit-scrollbar {
+    width: 12px;
+}
+
+.custom-scrollbar ::-webkit-scrollbar-track {
+    background: white;
+}
+
+.custom-scrollbar ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 6px;
+    border: 3px solid white;
+}
+
+/* Firefox scrollbar styles */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #2e7272 white;
+}
+
+
+//---------------------------------------------------------------
+
+.cantine_show_2 th {
+    background-color: #14208f;
+    /* A different shade for header */
+    color: white;
+    /* White text for headers */
+    font-weight: bold;
+    /* Makes header text bold */
+    text-align: center !important;
+    height: 37px !important;
+}
+.cantine_show_2 td {
+    text-align: center !important;
+    height: 37px !important;
+}
+
+.consummers_show_ th{
+    background-color: #131420;
+    text-align: center;
+}
+.consummers_show_ th:hover{
+    color: white !important;
+}
+
+.navbar_{
+    i{
+        color:white !important;
+    }
+}
+.sideBarLog{
+    width: 80% !important;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+.deco{
+    position: absolute !important; bottom: 0; 
+    color: white !important;
+    margin-bottom: 10px;
+    width: 100%;
+    i{
+        transform: rotateZ(180deg)
+    }
+}
